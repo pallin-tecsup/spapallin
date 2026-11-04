@@ -1,6 +1,6 @@
 const express = require('express');
 
-const mysql=require("mysql");
+const mysql=require("mysql2");
 const app = express()
 app.use("/css", express.static(__dirname + "/css"));
 app.use("/img", express.static(__dirname + "/img"));
